@@ -1,0 +1,56 @@
+.headerB{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+#homeB, #bookmarkB{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;    
+}
+
+#homeB, #bookmarkB:hover{
+    cursor: pointer;
+}
+
+#homeB{
+    font-weight: lighter;
+}
+
+.bookmarks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.bookmarkContainer{
+    background-color: #d25656;
+    color: white;
+    width: 35vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.bookmarkContainer h3{
+    font-weight: normal;
+    padding: 5rem;
+    padding-top: 1rem;
+}
+
+.bookmarkContainer h5{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media all and (max-width: 968px){
+    .bookmarkContainer{
+        width: 80vw;
+    }
+}
